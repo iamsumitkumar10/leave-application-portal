@@ -26,8 +26,8 @@ project-root/
 
 ## 🔧 Prerequisites
 - [Node.js](https://nodejs.org/) (>=14)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-- [MongoDB](https://www.mongodb.com/) (local or cloud like MongoDB Atlas)
+- [npm](https://www.npmjs.com/)  
+- [MongoDB](https://www.mongodb.com/)  
 
 ---
 
@@ -43,12 +43,12 @@ project-root/
 3. Create a `.env` file inside `backend/` with:
    ```env
    PORT=5000
-   MONGO_URI=your_mongodb_connection_string
+   MONGODB_URI=mongodb://localhost:27017/leave_portal
    JWT_SECRET=your_secret_key
    ```
 4. Run the server:
    ```bash
-   npm start
+   npm run dev
    ```
    Backend runs at: **http://localhost:5000**
 
@@ -69,7 +69,7 @@ project-root/
    ```
 4. Run the React app:
    ```bash
-   npm start
+   npm run dev
    ```
    Frontend runs at: **http://localhost:3000**
 
@@ -82,20 +82,6 @@ project-root/
 When registering, select the correct role.  
 - Admins are redirected to the **Admin Panel**.  
 - Employees are redirected to the **Dashboard**.  
-
----
-
-## 📦 Build & Deploy
-### Build frontend:
-```bash
-cd frontend
-npm run build
-```
-### Run backend in production:
-```bash
-cd backend
-npm run start
-```
 
 ---
 
