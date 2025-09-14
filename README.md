@@ -102,7 +102,11 @@ When registering, select the correct role.
 4. Register as Employee/Admin, then log in and explore features.  
 
 ## ✅ How to use start.sh
-first open bash terminal then execute below command
+1.first open bash terminal then execute below command
 ```bash
    sudo chmod 700 start.sh
+```
+2. run start.sh
+```bash
+   ./start.sh
 ```
