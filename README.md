@@ -101,3 +101,8 @@ When registering, select the correct role.
 3. Run **frontend** → UI available at `http://localhost:3000`.  
 4. Register as Employee/Admin, then log in and explore features.  
 
+## ✅ How to use start.sh
+first open bash terminal then execute below command
+```bash
+   sudo chmod 700 start.sh
+```
